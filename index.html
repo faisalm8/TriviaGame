@@ -3,36 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<title>NBATriviaGame</title>
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 	
 	<div id="container">
-		<h1>Nothin' but Net!: NBA Trivia Game</h1>
-			<p>
-				Welcome to Nothin' but Net!, an NBA Trivia game. Click the begin button below to start. Your score will be shown once all questions have been answered. Good luck!
-			</p>
-	</div>
-
-	<div id="main">
-		<h3 id="questions" class="card"></h3>
-		<div><span id="player"></span></div>
-		<div id="choices" classes="card">
-			<input type="radio" name="choice" value=0><span id="answer0"></span>
-			<br />
-			<input type="radio" name="choice" value=1><span id="answer1"></span>
-			<br />
-			<input type="radio" name="choice" value=2><span id="answer2"></span>
-			<br />
-			<input type="radio" name="choice" value=3><span id="answer3"></span>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1 class="page-header">Nothin' but Net!: NBA Trivia Game</h1>
+					<p>
+						Welcome to Nothin' but Net!, an NBA Trivia game. Select your answer from the choices below and click "Next". Your score will be shown once all questions have been answered. Good luck!
+					</p>
+			<div class="col-md-8">
 		</div>
-		<div>
-		<br />
-			<button id="backBtn">Back</button>
-			<button id="nextBtn">Next</button>
+	
+
+		<div id="main" class="col-md-12">
+			<h3 id="questions" class="card"></h3>
+			<div><span id="player"></span></div>
+			<div id="choices" classes="card">
+				<input type="radio" name="choice" value=0><span id="answer0"></span>
+				<br />
+				<input type="radio" name="choice" value=1><span id="answer1"></span>
+				<br />
+				<input type="radio" name="choice" value=2><span id="answer2"></span>
+				<br />
+				<input type="radio" name="choice" value=3><span id="answer3"></span>
+			</div>
+			<div>
+			<br />
+				<button id="backBtn" class="btn btn-warning">Back</button>
+				<button id="nextBtn" class="btn btn-warning">Next</button>
+			</div>
 		</div>
 	</div>
-
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 
