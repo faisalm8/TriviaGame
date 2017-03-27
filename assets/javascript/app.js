@@ -22,7 +22,7 @@ var quiz = [ {
 		correct: 3,
 	},
 	{
-		question: "His middle name is Emmanuel. His favorite sport except for basketball is Bowling. A 9-time NBA All Star.",
+		question: "His middle name is Emmanuel. His favorite sport except for basketball is Bowling. A 9-time NBA All Star who is known for his great handles and unstoppable floater.",
 		picture: "assets/images/cp3.png",
 		choices: [ 'Chris Paul', 'Kobe Bryant', 'Paul George', 'Dwyane Wade'],
 		correct: 0,
@@ -34,19 +34,19 @@ var quiz = [ {
 		correct: 0,
 	},
 	{
-		question: "Born in Chicago, Illinois. He won his first championship in 2006. His nickname is \ 'Flash'\ .",
+		question: "Born in Chicago, Illinois. He won the first of his three championships in 2006. His nickname is \ 'Flash'\ .",
 		picture: "assets/images/dwyane.png",
 		choices: [ 'Tim Hardaway', 'Alonzo Mourning', 'Dwyane Wade', 'Allen Iverson'],
 		correct: 2,
 	},
 	{
-		question: "Named Sixth Man of the Year in 2012. Known for his killer Euro-Step move and is currently one of the top candidates for the MVP award.",
+		question: "Named Sixth Man of the Year in 2012. Known for his elusive Euro-Step move and is currently one of the top candidates for the MVP award.",
 		picture: "assets/images/harden.png",
 		choices: [ 'Tim Hardaway', 'James Harden', 'Paul George', 'Lebron James'],
 		correct: 1,
 	},
 	{
-		question: "He played college basketball for UCLA. His real name was Lew Alcindor before converting to Islam. He was known for his trademark move \ 'Skyhook'\ .",
+		question: "He played college basketball for UCLA. His real name was Lew Alcindor. He was known for his trademark move \ 'Skyhook'\ . He holds all-time career scoring record. ",
 		picture: "assets/images/kareem.png",
 		choices: [ 'Shaquille Oneal', 'Kareem Abdul Jabar', 'Manut Bol', ''],
 		correct: 1,
@@ -76,7 +76,7 @@ var quiz = [ {
 		correct: 3,
 	},
 	{
-		question: "Known as the Greatest Basketball player of all time. He played baseball professionally. His middle name is \ 'Jeffrey'\ .",
+		question: "Known as the Greatest Basketball player of all time. He played baseball professionally. His middle name is \ 'Jeffrey'\ . He won 6 NBA championships during his career.",
 		picture: "assets/images/mj.png",
 		choices: [ 'Lebron James', 'Scottie Pippen', 'Michael Jordan', 'George Gervin'],
 		correct: 2,

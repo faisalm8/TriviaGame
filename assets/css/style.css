@@ -1,3 +1,27 @@
 body {
-	background-image: url('assets/images/hardwood.jpg');
+	background-image: url(../../assets/images/hardwood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #c7c5c4;
+	
+}
+
+.page-header {
+	font-style: italic;
+	color: #f19035;
+}
+
+p {
+	font-size: 18px;
+}
+
+#questions {
+	color: #1e26b0;
+	font-size: 19px;
+}
+
+#choices {
+	color: #291905;
+	font-size: 19px;
 }
